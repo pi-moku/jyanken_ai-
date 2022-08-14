@@ -17,3 +17,7 @@ scikit-learn
 ## 実行方法
 python3 main.py  
 ※UserWarningが出ると思いますが無視してください。  
+
+# Lisence
+
+This project is licensed under the MIT License, see the LICENSE.txt file for details
