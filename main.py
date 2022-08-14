@@ -3,7 +3,7 @@ from sklearn import tree
 from sklearn.model_selection import train_test_split
 
 # dfはデータフレームの略
-df = pd.read_csv('datafile/data.csv')
+df = pd.read_csv('data.csv')
 # 平均値を求めて欠損値と置き換える
 colmean = df.mean()
 df2 = df.fillna(colmean)
